@@ -9,9 +9,8 @@ int main()
     cin >> salary;
         if(salary < 1000)
         cout <<"Tebe nuzhno bolse rabotat" << endl;
-        if(salary > 1000){
-            if(salary < 1000000)
-                cout << "Ti molodec!" << endl;
+        if ((salary - 1000 > 0) * (1000000 - salary > 0)){
+            cout << "Ti molodec!" << endl;
         }
         if(salary > 1000000)
         cout <<"Ya hochu uvidet to, chto ti - millioner" << endl;
